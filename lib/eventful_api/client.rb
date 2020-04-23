@@ -3,7 +3,7 @@ require 'multi_json'
 
 module EventfulApi
   class Client
-    API_URL = 'http://api.eventful.com'
+    API_URL = 'https://api.eventful.com'
     attr_reader :access_token, :oauth_consumer
 
     def initialize(params)
