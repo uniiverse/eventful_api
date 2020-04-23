@@ -4,7 +4,7 @@ require 'eventful_api/client'
 require 'eventful_api/version'
 
 module EventfulApi
-  SITE_URL = 'http://eventful.com'
+  SITE_URL = 'https://eventful.com'
   SCHEME = :query_string
 
   @config = Struct.new(:consumer_key, :consumer_secret, :app_key).new
